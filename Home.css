@@ -309,4 +309,18 @@ h2{
 }
 .slick-arrow.slick-hidden {
     display: none;
+}.big-box,
+.mini-box {
+
+    text-align: center;
+    margin: 2px;
+    font-size: 1.5em;
+}
+.big-box {
+    height: 65px;
+    line-height: 65px;
+}
+.mini-box {
+    height: 30px;
+    line-height: 30px;
 }
