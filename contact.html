@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet"> 
-	<link rel="stylesheet" href="Home.css">
+	<link rel="stylesheet" href="service.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js">
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
@@ -52,6 +52,15 @@ div.container{
   bottom: 8px;
   left: 16px;
 }
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+}
+
 .footer {
    position: fixed;
    left: 0;
@@ -60,6 +69,26 @@ div.container{
    background-color: rgb(255, 255, 255);
    color: rgb(7, 1, 1);
    text-align: center;
+}
+#masked {
+
+  background-color: #080a0877;
+
+}
+p{
+  text-align: center;
+  line-height: 1.75rem;
+  font-size: 1.125rem;
+  letter-spacing: -0.025rem;
+}
+h3{
+  letter-spacing: -0.025em;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+  margin-top: 1rem;
+
 }
 </style>
 <body>
@@ -99,7 +128,7 @@ div.container{
         </nav> -->
         
         <header>
-            <img class="logo" src="images/inch-theory-logo-118x150.png " href="Home.html" width="70" alt="logo">
+            <a href="Home.html"><img class="logo" src="images/inch-theory-logo-118x150.png"  width="70" alt="logo"></a>
             <nav>
                 <ui class="nav_links">
                     <li><a href="service.html">SERVICE</a></li>
@@ -166,266 +195,24 @@ div.container{
 
 
     </div>
-    <div class="container ">
-        <div class="row">
-          <div class="col-md-12 p-0">
-            <div class="swiper-container parallax-slider">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide ">
-                  <div class="img-container one"></div>
-                  <div class="container h-100">
-                    <div class="row h-100">
-                      <div class="col-md-12">
-                        <div class="content">
-                          <h1 class="title">
-                            <div class="title-wrapper uppercase text-white leading-tight text-decoration-none" style="font-size: 36px; line-height: 2.5rem; max-width: 36rem;">
-                                All your exclusive interior ideas fulfilled
-                            </div>
-                          </h1>
-                          <div class="row">
-                            <div class="col-md-2 offset-md-5">
-                              <a href="" class="flex btn card border-0"> Our Service
-
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="img-container two"></div>
-                  <div class="container h-100">
-                    <div class="row h-100">
-                      <div class="col-md-12">
-                        <div class="content">
-                          <h1 class="title">
-                            <div class="title-wrapper uppercase text-white leading-tight text-decoration-none text3xl" style="font-size: 36px; line-height: 2.5rem; max-width: 36rem;">
-                                Your dream place starts now
-                            </div>
-                          </h1>
-                          <div class="row">
-                            <div class="row">
-                                <div class="col-md-2 offset-md-5">
-                                  <a href="" class="flex btn card border-0"> Our Portfolio
-    
-                                  </a>
-                                </div>
-                              </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="img-container three"></div>
-                  <div class="container h-100">
-                    <div class="row h-100">
-                      <div class="col-md-12">
-                        <div class="content">
-                          <h1 class="title">
-                            <div class="title-wrapper uppercase text-white leading-tight text-decoration-none"style="font-size: 36px; line-height: 2.5rem; max-width: 36rem;">
-                                Your dream place starts now
-                            </div>
-                          </h1>
-                          <div class="row">
-                            <div class="col-md-2 offset-md-5">
-                                <a href="" class="flex btn card border-0 text-dark"> Contact Us
-  
-                                </a>
-                              </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- slider controls -->
-              <div class="swiper-button-next swiper-nav-ctrl next-ctrl">
-                <i class="fas fa-chevron-right"></i>
-              </div>
-              <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl">
-                <i class="fas fa-chevron-left"></i>
-              </div>
-              <!-- pagination -->
-              <div class="swiper-pagination pagination-ctrl"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="py-12 mx-auto max-w-7xl lg:px-8">
-      <div class="container">
-        <br>
+    <section>
+        <div class="container">
+       <div class="row">
         
-         <section class="customer-logos slider">
-            <div class="slide"><img class="z-10 h-12 transition opacity-100 group-hover:opacity-0" src="images/beh-property-logo.svg" width="80px" height="80px"></div>
-            <div class="slide"><img src="images/mn-associate-logo.svg" width="80px" height="80px"></div>
-            <div class="slide"><img src="images/centeline-asia-logo-500x98.png" width="80px" height="80px"></div>
-            <div class="slide"><img src="images/uk-property-logo.svg" width="80px" height="80px"></div>
-            <div class="slide"><img src="images/ywzt-logo-gray-400-500x164.png" width="80px" height="80px"></div>
-            
-
-         </section>
-         
-     </div>
-      </div>
-      <br>
-      <br>
-      <br>
-     
-      <div class="container">
-      <div class="row">
-
-         <div class="col-md-4 img-fluid">
-         <img src="images/service.jpeg" width="350px" height="400px">
-         <div class="card-img-overlay">
-          <h4 class="card-title bottom-left text-white">Service</h4>
-         
-          
-        </div>
-         </div>
-         <br>
-        <div class="col-md-8">
-          
-          
-          <div class="row">
-            <div class="col-md-6   img-fluid ">
-              <img src="images/liv-in-style-768x432.jpeg" width="350px" height="200px">
-              <div class="card-img-overlay">
-                <h4 class="card-title bottom-left text-white">Liv'ln Style</h4>
-               
-                
-              </div>
-           
-            </div>
-            <div class="col-md-6  img-fluid"> 
-              <img src="images/portfolio-768x512.jpeg" width="350px" height="200px">
-              <div class="card-img-overlay">
-                <h4 class="card-title bottom-left text-white">Portfolio</h4>
-               
-                
-              </div>
+          <div class="absolute inset-0">
              
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 img-fluid"> 
-              <img src="images/about-768x513.jpeg" width="350px" height="200px">
-              <div class="card-img-overlay">
-                <h4 class="card-title bottom-left text-white">About us</h4>
-               
-                
-              </div>
-            </div>
-            <div class="col-md-6   img-fluid">
-              <img src="images/contact-768x432.jpeg" width="350px" height="200px">
-              <div class="card-img-overlay">
-                <h4 class="card-title bottom-left text-white">Contact</h4>
-               
-                
-              </div>
-            </div>
+          <img src="images/service.jpeg " width="100%" height="300px"  alt="Responsive image" >
+          <div class="centered">Service</div>
           </div>
         </div>
-      </div>
-      </div>
+         
+       </div>
+ </section>
 
 
 
-      <script>
-        $(document).ready(function(){
-    $('.customer-logos').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1500,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 4
-            }
-        }, {
-            breakpoint: 520,
-            settings: {
-                slidesToShow: 3
-            }
-        }]
-    });
-});
-      </script>
 
-      <!-- <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"
-      ></script> -->
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"
-        integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04="
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"
-        integrity="sha256-4sETKhh3aSyi6NRiA+qunPaTawqSMDQca/xLWu27Hg4="
-        crossorigin="anonymous"
-      ></script> 
-      <script >
-          $(document).ready(function() {
-  var parallaxSlider;
-  var parallaxSliderOptions = {
-    speed: 1000,
-    autoplay: true,
-    parallax: true,
-    loop: true,
-    grabCursor: true,
-    centeredSlides: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true
-    },
-    on: {
-      init: function() {
-        let swiper = this;
-        for (let i = 0; i < swiper.slides.length; i++) {
-          $(swiper.slides[i])
-            .find('.img-container')
-            .attr({
-              'data-swiper-parallax': 0.75 * swiper.width,
-              'data-swiper-paralalx-opacity': 0.5
-            });
 
-          $(swiper.slides[i])
-            .find('.title')
-            .attr('data-swiper-parallax', 0.65 * swiper.width);
-          $(swiper.slides[i])
-            .find('.description')
-            .attr('data-swiper-parallax', 0.5 * swiper.width);
-        }
-      },
-      resize: function() {
-        this.update();
-      }
-    },
-    navigation: {
-      nextEl: '.parallax-slider .next-ctrl',
-      prevEl: '.parallax-slider .prev-ctrl'
-    }
-  };
-
-  parallaxSlider = new Swiper('.parallax-slider', parallaxSliderOptions);
-  $(window).on('resize', function() {
-    parallaxSlider.destroy();
-    parallaxSlider = new Swiper('.parallax-slider', parallaxSliderOptions);
-  });
-});
-      </script> 
     
 
 <br>

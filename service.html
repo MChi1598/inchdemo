@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet"> 
-	<link rel="stylesheet" href="Home.css">
+	<link rel="stylesheet" href="service.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js">
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
@@ -52,6 +52,15 @@ div.container{
   bottom: 8px;
   left: 16px;
 }
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+}
+
 .footer {
    position: fixed;
    left: 0;
@@ -60,6 +69,26 @@ div.container{
    background-color: rgb(255, 255, 255);
    color: rgb(7, 1, 1);
    text-align: center;
+}
+#masked {
+
+  background-color: #080a0877;
+
+}
+p{
+  text-align: center;
+  line-height: 1.75rem;
+  font-size: 1.125rem;
+  letter-spacing: -0.025rem;
+}
+h3{
+  letter-spacing: -0.025em;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+  margin-top: 1rem;
+
 }
 </style>
 <body>
@@ -99,8 +128,7 @@ div.container{
         </nav> -->
         
         <header>
-            <img class="logo" src="images/inch-theory-logo-118x150.png " href="Home.html" width="70" alt="logo">
-            <nav>
+          <a href="Home.html"><img class="logo" src="images/inch-theory-logo-118x150.png"  width="70" alt="logo"></a>
                 <ui class="nav_links">
                     <li><a href="service.html">SERVICE</a></li>
                     <li><a href="Livin.html">LIV'IN STYLE</a></li>
@@ -133,6 +161,7 @@ div.container{
                               </svg>
                         </a>
                     </li>
+                    
                     <li class="nav-item col-6 col-md-auto">
                         <a class="nav-link p-2" href="https://www.linkedin.com/company/inch-theory/" target="_blank" rel="noopener">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16" style="color:black;">
@@ -166,272 +195,136 @@ div.container{
 
 
     </div>
-    <div class="container ">
-        <div class="row">
-          <div class="col-md-12 p-0">
-            <div class="swiper-container parallax-slider">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide ">
-                  <div class="img-container one"></div>
-                  <div class="container h-100">
-                    <div class="row h-100">
-                      <div class="col-md-12">
-                        <div class="content">
-                          <h1 class="title">
-                            <div class="title-wrapper uppercase text-white leading-tight text-decoration-none" style="font-size: 36px; line-height: 2.5rem; max-width: 36rem;">
-                                All your exclusive interior ideas fulfilled
-                            </div>
-                          </h1>
-                          <div class="row">
-                            <div class="col-md-2 offset-md-5">
-                              <a href="" class="flex btn card border-0"> Our Service
+<section>
+  <div class="container">
+    <div class="row">
+     
+       <div class="row banner align-items-center text-center " style="background-image: url(images/service.jpeg);  background-size: cover;">
+     
+     <div class="col-sm-12">
+         <br><br><br><br><br><br><br><br>
+           <h3 class="text-center text-white display-1 ">Service</h3>
+           <br><br><br><br><br><br><br><br>
 
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="img-container two"></div>
-                  <div class="container h-100">
-                    <div class="row h-100">
-                      <div class="col-md-12">
-                        <div class="content">
-                          <h1 class="title">
-                            <div class="title-wrapper uppercase text-white leading-tight text-decoration-none text3xl" style="font-size: 36px; line-height: 2.5rem; max-width: 36rem;">
-                                Your dream place starts now
-                            </div>
-                          </h1>
-                          <div class="row">
-                            <div class="row">
-                                <div class="col-md-2 offset-md-5">
-                                  <a href="" class="flex btn card border-0"> Our Portfolio
-    
-                                  </a>
-                                </div>
-                              </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="img-container three"></div>
-                  <div class="container h-100">
-                    <div class="row h-100">
-                      <div class="col-md-12">
-                        <div class="content">
-                          <h1 class="title">
-                            <div class="title-wrapper uppercase text-white leading-tight text-decoration-none"style="font-size: 36px; line-height: 2.5rem; max-width: 36rem;">
-                                Your dream place starts now
-                            </div>
-                          </h1>
-                          <div class="row">
-                            <div class="col-md-2 offset-md-5">
-                                <a href="" class="flex btn card border-0 text-dark"> Contact Us
-  
-                                </a>
-                              </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- slider controls -->
-              <div class="swiper-button-next swiper-nav-ctrl next-ctrl">
-                <i class="fas fa-chevron-right"></i>
-              </div>
-              <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl">
-                <i class="fas fa-chevron-left"></i>
-              </div>
-              <!-- pagination -->
-              <div class="swiper-pagination pagination-ctrl"></div>
+          
+       </div>
+     </div>
+          
+      
+       
+       </div>
+     </div>
+</section>
+ 
+<br>
+
+<br>
+
+      <section>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+              <p>Gone are the days of conventional design & build method, with INCH Theory where every INCH matters, we are committed to successfully complete a project within budget and schedule.</p>
+              <p>Our design concept is exactly as per our company motto, every INCH matters. We will manage from design to build, what new homeowners and business owners require is just to move in after the completion.</p>
             </div>
+          <div class="col-md-6">
+           <img src="images/service-1.jpeg" width="550" height="320" >
           </div>
         </div>
-      </div>
-
-      <div class="py-12 mx-auto max-w-7xl lg:px-8">
-      <div class="container">
+        </div>
         <br>
-        
-         <section class="customer-logos slider">
-            <div class="slide"><img class="z-10 h-12 transition opacity-100 group-hover:opacity-0" src="images/beh-property-logo.svg" width="80px" height="80px"></div>
-            <div class="slide"><img src="images/mn-associate-logo.svg" width="80px" height="80px"></div>
-            <div class="slide"><img src="images/centeline-asia-logo-500x98.png" width="80px" height="80px"></div>
-            <div class="slide"><img src="images/uk-property-logo.svg" width="80px" height="80px"></div>
-            <div class="slide"><img src="images/ywzt-logo-gray-400-500x164.png" width="80px" height="80px"></div>
-            
 
-         </section>
-         
-     </div>
-      </div>
-      <br>
-      <br>
-      <br>
-     
+<br>
+      </section>
+      <section>
       <div class="container">
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+          <div class="col">
+            
+            <div class="p-3 border bg-light">
+             <center> <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+              </svg>
+            </center>
+            <h3 class="mt-4 text-lg font-medium tracking-tight text-center">Creative Input</h3>
+          </div>
+        </div>
+        <div class="col">
+            
+          <div class="p-3 border bg-light">
+           <center> <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-flower2" viewBox="0 0 16 16">
+            <path d="M8 16a4 4 0 0 0 4-4 4 4 0 0 0 0-8 4 4 0 0 0-8 0 4 4 0 1 0 0 8 4 4 0 0 0 4 4zm3-12c0 .073-.01.155-.03.247-.544.241-1.091.638-1.598 1.084A2.987 2.987 0 0 0 8 5c-.494 0-.96.12-1.372.331-.507-.446-1.054-.843-1.597-1.084A1.117 1.117 0 0 1 5 4a3 3 0 0 1 6 0zm-.812 6.052A2.99 2.99 0 0 0 11 8a2.99 2.99 0 0 0-.812-2.052c.215-.18.432-.346.647-.487C11.34 5.131 11.732 5 12 5a3 3 0 1 1 0 6c-.268 0-.66-.13-1.165-.461a6.833 6.833 0 0 1-.647-.487zm-3.56.617a3.001 3.001 0 0 0 2.744 0c.507.446 1.054.842 1.598 1.084.02.091.03.174.03.247a3 3 0 1 1-6 0c0-.073.01-.155.03-.247.544-.242 1.091-.638 1.598-1.084zm-.816-4.721A2.99 2.99 0 0 0 5 8c0 .794.308 1.516.812 2.052a6.83 6.83 0 0 1-.647.487C4.66 10.869 4.268 11 4 11a3 3 0 0 1 0-6c.268 0 .66.13 1.165.461.215.141.432.306.647.487zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+          </svg>
+          </center>
+          <h3 class="mt-4 text-lg font-medium tracking-tight text-center">Strong Management Skills</h3>
+        </div>
+      </div>
+      <div class="col">
+            
+        <div class="p-3 border bg-light">
+         <center> <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+          <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+        </svg>
+        </center>
+        <h3 class="mt-4 text-lg font-medium tracking-tight text-center">Advanced Technical Team</h3>
+      </div>
+    </div>
+    <div class="col">
+            
+      <div class="p-3 border bg-light">
+       <center> <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z"/>
+      </svg>
+      </center>
+      <h3 class="mt-4 text-lg font-medium tracking-tight text-center">Strategic & Analsis Plan</h3>
+    </div>
+  </div>
+  <div class="col">
+            
+    <div class="p-3 border bg-light">
+     <center><svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+      <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+    </svg>
+    </center>
+    <h3 class="mt-4 text-lg font-medium tracking-tight text-center">Quality Assured</h3>
+  </div>
+</div>
+          
+        </div>
+      </div>
+  
+
+    
+    |<section>
+  <div class="container">
       <div class="row">
 
-         <div class="col-md-4 img-fluid">
-         <img src="images/service.jpeg" width="350px" height="400px">
-         <div class="card-img-overlay">
-          <h4 class="card-title bottom-left text-white">Service</h4>
-         
-          
-        </div>
-         </div>
-         <br>
-        <div class="col-md-8">
-          
-          
-          <div class="row">
-            <div class="col-md-6   img-fluid ">
-              <img src="images/liv-in-style-768x432.jpeg" width="350px" height="200px">
-              <div class="card-img-overlay">
-                <h4 class="card-title bottom-left text-white">Liv'ln Style</h4>
-               
-                
-              </div>
-           
-            </div>
-            <div class="col-md-6  img-fluid"> 
-              <img src="images/portfolio-768x512.jpeg" width="350px" height="200px">
-              <div class="card-img-overlay">
-                <h4 class="card-title bottom-left text-white">Portfolio</h4>
-               
-                
-              </div>
-             
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 img-fluid"> 
-              <img src="images/about-768x513.jpeg" width="350px" height="200px">
-              <div class="card-img-overlay">
-                <h4 class="card-title bottom-left text-white">About us</h4>
-               
-                
-              </div>
-            </div>
-            <div class="col-md-6   img-fluid">
-              <img src="images/contact-768x432.jpeg" width="350px" height="200px">
-              <div class="card-img-overlay">
-                <h4 class="card-title bottom-left text-white">Contact</h4>
-               
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
+      <div class="container-fluid text-center" style="background-image: url(images/cta.jpeg);  background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;"> 
+        <br>
+        <br>
+        <br>
+        <h1 class="display-6 text-center text-white">INTERESTED?</h1>
+        <br>
+        <br>
+        <p><a href="#" class="btn btn-light btn-lg" role="button">Get In Touch</a></p>
+     </div>
+    </section>  
+  </div>
+    </div>
+</body>
 
 
 
-      <script>
-        $(document).ready(function(){
-    $('.customer-logos').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1500,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 4
-            }
-        }, {
-            breakpoint: 520,
-            settings: {
-                slidesToShow: 3
-            }
-        }]
-    });
-});
-      </script>
 
-      <!-- <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"
-      ></script> -->
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"
-        integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04="
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"
-        integrity="sha256-4sETKhh3aSyi6NRiA+qunPaTawqSMDQca/xLWu27Hg4="
-        crossorigin="anonymous"
-      ></script> 
-      <script >
-          $(document).ready(function() {
-  var parallaxSlider;
-  var parallaxSliderOptions = {
-    speed: 1000,
-    autoplay: true,
-    parallax: true,
-    loop: true,
-    grabCursor: true,
-    centeredSlides: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true
-    },
-    on: {
-      init: function() {
-        let swiper = this;
-        for (let i = 0; i < swiper.slides.length; i++) {
-          $(swiper.slides[i])
-            .find('.img-container')
-            .attr({
-              'data-swiper-parallax': 0.75 * swiper.width,
-              'data-swiper-paralalx-opacity': 0.5
-            });
-
-          $(swiper.slides[i])
-            .find('.title')
-            .attr('data-swiper-parallax', 0.65 * swiper.width);
-          $(swiper.slides[i])
-            .find('.description')
-            .attr('data-swiper-parallax', 0.5 * swiper.width);
-        }
-      },
-      resize: function() {
-        this.update();
-      }
-    },
-    navigation: {
-      nextEl: '.parallax-slider .next-ctrl',
-      prevEl: '.parallax-slider .prev-ctrl'
-    }
-  };
-
-  parallaxSlider = new Swiper('.parallax-slider', parallaxSliderOptions);
-  $(window).on('resize', function() {
-    parallaxSlider.destroy();
-    parallaxSlider = new Swiper('.parallax-slider', parallaxSliderOptions);
-  });
-});
-      </script> 
     
 
 <br>
 <br>
 <br>
-</body>
+
 <footer>
   <div>
   

@@ -178,8 +178,8 @@ button:hover{
 }
 
 .parallax-slider .img-container.one {
-  background-image: url("images/home-1-1620x1080.jpeg");
-  opacity: 0.3;
+  background-image: url("images/cta.jpeg" ) ;
+ 
 }
 
 .parallax-slider .img-container.two {
@@ -310,3 +310,14 @@ h2{
 .slick-arrow.slick-hidden {
     display: none;
 }
+.header{
+  background-color:rgba(45,44,89,0.7);
+  width: 100%;
+  color: #ffffff;
+  position: relative;
+  bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  }
+  
